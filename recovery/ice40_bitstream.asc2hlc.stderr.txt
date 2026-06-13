@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/icebox_asc2hlc", line 1135, in <module>
+    main()
+    ~~~~^^
+  File "/opt/homebrew/bin/icebox_asc2hlc", line 1131, in main
+    fabric = Fabric(ic)
+  File "/opt/homebrew/bin/icebox_asc2hlc", line 669, in __init__
+    assert ((x, y) in self.tiles) == should_exist
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
